@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+h1{
+    color: hsl(0, 0%, 100%);
+    margin: auto;
+    font-weight: 600;
+    
+}
+h2{
+    color: hsl(75, 94%, 57%);
+    margin: auto;
+    font-weight: 600;
+
+}
+h4{
+    color: hsl(0, 0%, 100%);
+    margin: auto;
+    font-weight: 100;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+    height: 550px;
+    justify-content: space-between;
+    align-content: space-around;
+    border-radius: 6px;
+    border-color: hsl(0, 0%, 12%);
+    background-color: hsl(0, 0%, 12%);
+}
+div{
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid green;
+    margin: auto;
+    width: 80%;
+    border-radius: 6px;
+    padding: 10px;
+    align-content: center;
+    border-color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    font-weight: 600;
+}
+div:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+.container:hover{
+    background-color:hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 12%);
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+img{
+    margin: auto;
+    width: 50%;
+    border-radius: 50px;
+    
+}
+a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+.container div:hover a{
+    color: hsl(0, 0%, 20%);
+    text-size-adjust: 14px;
+}
